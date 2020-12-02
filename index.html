@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!--References BootStrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!--References FontAwesome Code-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+  
+    <!--References CSS code-->
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+</head>
+<body background="Images/testbackground5.jpeg">
+
+
+<!--Navigation Bar with different Headings-->
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">James Nwankwo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#">Coding Examples</a>
+            <a class="nav-link" href="#">Education / Recent Experience</a>
+            <a class="nav-link" href="#">Contact Me</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <!--Places Website Intro Message within a container that is in the middle of the webpage-->
+      <div class="container" id="headJumbo">
+          <div class="row text-center">
+            <div class="col-sm-12 align-self=-center">
+              <br><h1>James Nwankwo</h1>
+              <h3>Trainee Cloud Engineer / Computer Science Graduate</h3>
+            </div>
+            <div class=col-sm-3>
+              <!--<img src="Images/computer.jpg">-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="container" id="aboutme">
+      <!--Column that contains introduction to who i am as a person. includes extracts from personal statement-->
+      <div class="row text-center">
+
+        <div class="aboutmetext">
+          <h1>About Me:</h1>
+         <p>I am a very enthusiastic individual with an evident passion for technology. My passion for technology and all things tech related started when I was a young kid. I was given my first laptop at the age of 12 and I would spend hours of each day trying to understand what made it tick, I would also take apart the computers around my house just so I could inspect the different hardware. </p>
+         <p>I am a hardworking person who always tries to complete any task to the best of his ability, I am very calm, and I am confident in my potential as IT Professional.</p>
+         <p>My career ambition is to be a qualified IT Professional working as a Cloud Engineer or to be a software developer who takes part in each stage of the software development lifecycle. This is because I would love to have a part in creating programs and software solutions that helped improved the lives of other people.</p>
+        </div>
+          
+      </div>
+    </div>
+
+    <!--container for the grids--> 
+    <div class="container-fluid text-center" id="skills">
+      <h2 class="display-5">Skills:</h2>
+      <div class="row text-center justify-content-center align-items-center">
+
+          <div class="col">
+            <i class="fab fa-windows"></i>
+            <p>Windows - 5 Years + </p>
+          </div>
+
+          <div class="col">
+            <i class="fab fa-python"></i>
+            <p>Python - 6 Months + </p>
+          </div>
+
+          <div class="col">
+            <i class="fab fa-aws"></i>
+            <p>AWS - 2 Months +</p>
+          </div>
+
+          <div class="col">
+            <i class="fab fa-linux"></i>
+            <p>Linux - 6 Months +</p>
+          </div>
+
+          <div class="col">
+            <i class="fab fa-html5"></i>
+            <p>HTMl - 1 Month +</p>
+          </div>
+
+          <div class="col">
+            <i class="fab fa-github"></i>
+            <p>Github - 3 Years +</p>
+          </div>
+
+          <div class="col">
+            <i class="fas fa-database"></i>
+            <p>Databases - 1 Year +</p>
+          </div>
+      </div>
+    </div>
+    </div>
+
+
+    <!--container for the coding example carousel-->
+    <div class="container text-center" id="showCase">
+
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-5 align-items-center">
+          <h2 class="display-5">Coding Examples:</h2>
+          <div id="codingexamples" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#codingexamples" data-slide-to="0" class="active"></li>
+              <li data-target="#codingexamples" data-slide-to="1"></li>
+              <li data-target="#codingexamples" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <a href="https://github.com/bryanlds/Alien-Invasion"><img src="Images/alieninvasion.png" class="d-block w-100" alt="..."></a>
+                <div class="cap1 text-center">
+                  <h5>Alien Invasion Game</h5>
+                  <p>A small interactive game developed on Visual Studio using Python.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <a href="https://github.com/james-nwankwo/ShoppingList/tree/master/Final%20App"><img src="Images/Shopping List.png" class="d-block w-100" alt="..."></a>
+                <div class="cap1 text-center">
+                  <h5>Mobile Shopping List</h5>
+                  <p>A webpage I designed as part of a Uni Assignment. This is a shopping list developed using JQuery. It works best on mobile devices.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <a href="https://github.com/aws-samples/aws-serverless-workshops"><img src="Images/wildrydes.jpg" class="d-block w-100" alt="..."></a>
+                <ddiv class="cap1 text-center">
+                  <h5>Wild Rydes Web Application</h5>
+                  <p>A serverless web application developed using a number of aws products. When running, the user can request a unicorn to their current location.</p>
+                </div>
+              </div>
+               
+            </div>
+            <a class="carousel-control-prev" href="#codingexamples" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#codingexamples" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="container text-center">
+        <div id="history">
+        <h1 class="display-5">Education / Recent Work Experience:</h1>
+        <br>
+
+        <h3>Trainee Cloud Practitioner:</h3>
+        <h4>AWS re/Start course with Generation</h4>
+        <h6>September 2020 - November 2020</h6>
+        <br>
+
+        <h3>Data Entry Specialist:</h3>
+        <h4>Iron Mountain, Thamesmead</h4>
+        <h6>February 2019 – March 2020</h6>
+        <br>
+
+        <h3>Computer Science Student:</h3>
+        <h4>University of Hertfordshire</h4>
+        <h6>September 2014 - June 2017</h6>
+        <br>
+
+        <h3>Data Entry Admin:</h3>
+        <h4>Swindon Borough Council</h4>
+        <h6>July 2016 - September 2016</h6>
+        <br>
+
+        </div>
+    </div>
+
+    <!--Footer sections-->
+
+ <div class="container text-center" id="footer">
+  <h1 class="display-5">Contact Me:</h1>
+    <div class="row footer">
+        <div class="col-md-12" id="contact">
+          <p>
+            <br><strong>LinkedIn:</strong>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+          </p>
+          <p>
+            <br><strong>Github:</strong>
+            <a href=""><i class="fab fa-github"></i></a>
+          </p>
+          <p>
+            <br><strong>Email:</strong>
+            <a href="mailto:james.nwankwo@gmail.com"><i class="fas fa-envelope"></i></a>
+          </p>
+
+          <hr class="socket">
+          <strong><p>Website built by James Nwankwo.</p></strong>
+
+        </div>
+
+    </div>
+
+
+ </div>
+
+
+
+
+      
+    <!--Bootstrap Javascript & JQuery forms-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

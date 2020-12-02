@@ -1,0 +1,142 @@
+﻿/* Navbar */
+
+.navbar li a {
+    color: royalblue;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    font-size: 1rem;
+
+}
+
+.navbar li a:hover {
+    color: black;
+    font-size: 1.2rem;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    margin: 0 10px;
+
+}
+
+.navbar-brand {
+    font-size: 1.3rem; 
+    letter-spacing: 1px;
+}
+
+
+#headJumbo img {
+    margin-top: 20px;
+    height: 80%;
+    width: 100%;
+}
+
+#headJumbo {
+    color: black; 
+}
+
+.jumbotron {
+    background-color: #E1E2E2;
+
+}
+
+#aboutme {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#skills {
+    border-color: black;
+    border-width: 3px;
+    border-style: inset;
+}
+
+#skills svg.svg-inline--fa {
+font-size: 5rem;
+margin: auto;
+color: black;
+margin: 30px;
+
+}
+
+.col {
+    color: black;
+    font-style: bold;
+}
+
+#skills svg.svg-inline--fa:hover {
+   color: grey!important; 
+    font-size: 5.4rem;
+
+
+}
+
+/* Project Coding Examples */
+
+#showCase{
+    margin-top: 30px;
+
+}
+
+#codingexamples img{
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+}
+
+.cap1 h5{
+    color:black;
+
+}
+
+.cap1 p {
+    color:orangered;
+}
+
+.carousel-indicators li {
+    display:none;
+}
+
+#history {
+    margin-top: 50px;
+    border-color: black;
+    border-width: 3px;
+    border-style: inset;
+    margin-bottom: 20px;
+}
+
+#history h3 {
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+#history h4 {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+#history h6 {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+/* Footer styling */
+
+#footer {
+    height: 260px;
+    width: 300px;
+}
+
+#contact {
+    margin-top: 20px;
+}
+
+#contact svg.svg-inline--fa {
+    font-size: 1.5rem;
+    margin: auto;
+    color:royalblue;
+    }
+    
+#contact svg.svg-inline--fa:hover {
+       color: grey!important; 
+        font-size: 2rem;
+    
+    }
